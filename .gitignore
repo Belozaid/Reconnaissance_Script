@@ -1,0 +1,19 @@
+# نتائج التشغيل (مجلد النتائج)
+results/
+recon_results_*/
+
+# ملفات النظام
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# مجلدات التخزين المؤقتة
+temp/
+cache/
+
+# ملفات التكوين المحلية
+.env
+*.local
