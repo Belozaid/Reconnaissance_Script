@@ -1,0 +1,12 @@
+# Nmap 7.96 scan initiated Mon Mar 16 02:51:12 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -F --open -oN recon_results_google.com_20260316_025106\\nmap_scan.txt google.com
+Nmap scan report for google.com (142.251.37.78)
+Host is up (0.059s latency).
+Other addresses for google.com (not scanned): 2a00:1450:4019:804::200e
+rDNS record for 142.251.37.78: tlv03s01-in-f14.1e100.net
+Not shown: 96 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 1 closed tcp port (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Mon Mar 16 02:51:21 2026 -- 1 IP address (1 host up) scanned in 9.10 seconds

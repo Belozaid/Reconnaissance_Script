@@ -1,0 +1,10 @@
+# Nmap 7.96 scan initiated Mon Mar 16 02:50:03 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -F --open -oN recon_results_192.168.52.1_20260316_025000\\nmap_scan.txt 192.168.52.1
+Nmap scan report for 192.168.52.1
+Host is up (0.0011s latency).
+Not shown: 97 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Mar 16 02:50:07 2026 -- 1 IP address (1 host up) scanned in 3.88 seconds
