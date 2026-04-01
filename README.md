@@ -42,12 +42,3 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 4. Phase 4 (Reporting): A Markdown report containing security recommendations is generated.
 
 
-## 📂 Project Structure
-
-Reconnaissance_Script/
-│
-├── recon_script.ps1                   # Main script
-├── README.md                            # Profile and Information
-├── .gitignore                           # To ignore unwanted files
-├── results/                              # A folder for the results (Git will ignore it)
-├── screenshots/                          # Screenshot folder
